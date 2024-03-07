@@ -1546,6 +1546,4 @@
     </script>
 </body>
 
-
-<!-- Mirrored from demo.graygrids.com/themes/shopgrids/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Feb 2024 12:41:49 GMT -->
 </html>
