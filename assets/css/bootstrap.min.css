@@ -5117,7 +5117,7 @@ fieldset:disabled .btn {
     float: left;
     padding-right: .5rem;
     color: #6c757d;
-    content: var(--bs-breadcrumb-divider, "https://demo.graygrids.com/")
+    content: var(--bs-breadcrumb-divider, "https://demo.ByteBazaar.com/")
 }
 
 .breadcrumb-item.active {

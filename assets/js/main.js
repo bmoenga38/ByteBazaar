@@ -1,6 +1,6 @@
 /*
-Template Name: ShopGrids - Bootstrap 5 eCommerce HTML Template.
-Author: GrayGrids
+Template Name: ByteBazaar - Bootstrap 5 eCommerce HTML Template.
+Author: ByteBazaar
 */
 
 (function () {

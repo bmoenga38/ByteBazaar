@@ -127,6 +127,9 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="404.aspx" />
+    <Content Include="AboutUs.aspx" />
+    <Content Include="AccountPasswordRecovery.aspx" />
     <Content Include="assets\css\bootstrap.min.css" />
     <Content Include="assets\css\glightbox.min.css" />
     <Content Include="assets\css\LineIcons.3.0.css" />
@@ -210,6 +213,12 @@
     <Content Include="assets\js\glightbox.min.js" />
     <Content Include="assets\js\main.js" />
     <Content Include="assets\js\tiny-slider.js" />
+    <Content Include="BlogGridSideBar.aspx" />
+    <Content Include="BlogSingle.aspx" />
+    <Content Include="BlogSingleSideBar.aspx" />
+    <Content Include="Cart.aspx" />
+    <Content Include="Checkout.aspx" />
+    <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -227,10 +236,8 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="favicon.ico" />
+    <Content Include="Faq.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="Home-2.aspx" />
-    <Content Include="Home.aspx" />
     <Content Include="Content\bootstrap.rtl.min.css.map" />
     <Content Include="Content\bootstrap.rtl.css.map" />
     <Content Include="Content\bootstrap.min.css.map" />
@@ -247,27 +254,111 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="Home.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="MailSuccess.aspx" />
+    <Content Include="ProductDetails.aspx" />
+    <Content Include="ProductBazaar.aspx" />
+    <Content Include="ProductList.aspx" />
+    <Content Include="Register.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="404.aspx.designer.vb">
+      <DependentUpon>404.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="404.aspx.vb">
+      <DependentUpon>404.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs.aspx.designer.vb">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AboutUs.aspx.vb">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AccountPasswordRecovery.aspx.designer.vb">
+      <DependentUpon>AccountPasswordRecovery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccountPasswordRecovery.aspx.vb">
+      <DependentUpon>AccountPasswordRecovery.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
+    <Compile Include="BlogGridSideBar.aspx.designer.vb">
+      <DependentUpon>BlogGridSideBar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlogGridSideBar.aspx.vb">
+      <DependentUpon>BlogGridSideBar.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BlogSingle.aspx.designer.vb">
+      <DependentUpon>BlogSingle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlogSingle.aspx.vb">
+      <DependentUpon>BlogSingle.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BlogSingleSideBar.aspx.designer.vb">
+      <DependentUpon>BlogSingleSideBar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlogSingleSideBar.aspx.vb">
+      <DependentUpon>BlogSingleSideBar.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cart.aspx.designer.vb">
+      <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cart.aspx.vb">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Checkout.aspx.designer.vb">
+      <DependentUpon>Checkout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Checkout.aspx.vb">
+      <DependentUpon>Checkout.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.vb">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.vb">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Faq.aspx.designer.vb">
+      <DependentUpon>Faq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Faq.aspx.vb">
+      <DependentUpon>Faq.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="Home-2.aspx.designer.vb">
-      <DependentUpon>Home-2.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Home-2.aspx.vb">
-      <DependentUpon>Home-2.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Home.aspx.designer.vb">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.vb">
       <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MailSuccess.aspx.designer.vb">
+      <DependentUpon>MailSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MailSuccess.aspx.vb">
+      <DependentUpon>MailSuccess.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -289,12 +380,33 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Home.Master.designer.vb">
-      <DependentUpon>Home.Master</DependentUpon>
+    <Compile Include="ProductDetails.aspx.designer.vb">
+      <DependentUpon>ProductDetails.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Home.Master.vb">
-      <DependentUpon>Home.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+    <Compile Include="ProductDetails.aspx.vb">
+      <DependentUpon>ProductDetails.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ProductBazaar.aspx.designer.vb">
+      <DependentUpon>ProductBazaar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductBazaar.aspx.vb">
+      <DependentUpon>ProductBazaar.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ProductList.aspx.designer.vb">
+      <DependentUpon>ProductList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductList.aspx.vb">
+      <DependentUpon>ProductList.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register.aspx.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.vb">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
@@ -333,7 +445,6 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <Content Include="Home.Master" />
     <Content Include="Site.Mobile.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <None Include="packages.config" />

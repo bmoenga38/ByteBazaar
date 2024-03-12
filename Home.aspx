@@ -4,16 +4,15 @@
 <html class="no-js" lang="zxx">
 
 
-<!-- Mirrored from demo.graygrids.com/themes/shopgrids/about-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Feb 2024 12:41:50 GMT -->
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>About Us - ShopGrids Bootstrap 5 eCommerce HTML Template.</title>
+    <title>ByteBazaar - eCommerce.</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
 
-    <!-- ========================= CSS here ========================= -->
+    <!-- ========================= CSS here   ========================= -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/LineIcons.3.0.css" />
     <link rel="stylesheet" href="assets/css/tiny-slider.css" />
@@ -23,16 +22,9 @@
 </head>
 
 <body>
-    <!--[if lte IE 9]>
-      <p class="browserupgrade">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
-        your experience and security.
-      </p>
-    <![endif]-->
-
+ 
     <!-- Preloader -->
-    <div class="preloader">
+    <div runat="server" class="preloader">
         <div class="preloader-inner">
             <div class="preloader-icon">
                 <span></span>
@@ -54,9 +46,9 @@
                                 <li>
                                     <div class="select-position">
                                         <select id="select4">
-                                            <option value="0" selected>$ USD</option>
+                                            <option value="0" selected>KSH USD</option>
                                             <option value="1">€ EURO</option>
-                                            <option value="2">$ CAD</option>
+                                            <option value="2">KSH CAD</option>
                                             <option value="3">₹ INR</option>
                                             <option value="4">¥ CNY</option>
                                             <option value="5">৳ BDT</option>
@@ -82,9 +74,9 @@
                     <div class="col-lg-4 col-md-4 col-12">
                         <div class="top-middle">
                             <ul class="useful-links">
-                                <li><a href="Home-2.aspx">Home</a></li>
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="Home.aspx">Home</a></li>
+                                <li><a href="AboutUs.aspx">About Us</a></li>
+                                <li><a href="Contact.aspx">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -92,14 +84,14 @@
                         <div class="top-end">
                             <div class="user">
                                 <i class="lni lni-user"></i>
-                                Hello
+                                Hello <%--Select existing user login name --%>
                             </div>
                             <ul class="user-login">
                                 <li>
-                                    <a href="login.html">Sign In</a>
+                                    <a href="Login.aspx">Sign In</a>
                                 </li>
                                 <li>
-                                    <a href="register.html">Register</a>
+                                    <a href="Register.aspx">Register</a>
                                 </li>
                             </ul>
                         </div>
@@ -114,7 +106,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-3 col-7">
                         <!-- Start Header Logo -->
-                        <a class="navbar-brand" href="Home-2.aspx">
+                        <%--<a class="navbar-brand" href="Home.aspx">--%>
                             <img src="assets/images/logo/logo.svg" alt="Logo">
                         </a>
                         <!-- End Header Logo -->
@@ -128,11 +120,11 @@
                                     <div class="select-position">
                                         <select id="select1">
                                             <option selected>All</option>
-                                            <option value="1">option 01</option>
-                                            <option value="2">option 02</option>
-                                            <option value="3">option 03</option>
-                                            <option value="4">option 04</option>
-                                            <option value="5">option 05</option>
+                                            <option value="1">Laptops</option>
+                                            <option value="2">Computers </option>
+                                            <option value="3">Tablets </option>
+                                            <option value="4">Smartphones </option>
+                                            <option value="5">Gaming Consoles </option>
                                         </select>
                                     </div>
                                 </div>
@@ -152,7 +144,7 @@
                             <div class="nav-hotline">
                                 <i class="lni lni-phone"></i>
                                 <h3>Hotline:
-                                    <span>(+100) 123 456 7890</span>
+                                    <span>(+254)  718 708 080</span>
                                 </h3>
                             </div>
                             <div class="navbar-cart">
@@ -171,43 +163,43 @@
                                     <div class="shopping-item">
                                         <div class="dropdown-cart-header">
                                             <span>2 Items</span>
-                                            <a href="cart.html">View Cart</a>
+                                            <a href="Cart.aspx">View Cart</a>
                                         </div>
                                         <ul class="shopping-list">
                                             <li>
                                                 <a href="javascript:void(0)" class="remove" title="Remove this item"><i
                                                         class="lni lni-close"></i></a>
                                                 <div class="cart-img-head">
-                                                    <a class="cart-img" href="product-details.html"><img
+                                                    <a class="cart-img" href="ProductDetails.aspx"><img
                                                             src="assets/images/header/cart-items/item1.jpg" alt="#"></a>
                                                 </div>
 
                                                 <div class="content">
-                                                    <h4><a href="product-details.html">
+                                                    <h4><a href="ProductDetails.aspx">
                                                             Apple Watch Series 6</a></h4>
-                                                    <p class="quantity">1x - <span class="amount">$99.00</span></p>
+                                                    <p class="quantity">1x - <span class="amount">KSH 9900</span></p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <a href="javascript:void(0)" class="remove" title="Remove this item"><i
                                                         class="lni lni-close"></i></a>
                                                 <div class="cart-img-head">
-                                                    <a class="cart-img" href="product-details.html"><img
+                                                    <a class="cart-img" href="ProductDetails.aspx"><img
                                                             src="assets/images/header/cart-items/item2.jpg" alt="#"></a>
                                                 </div>
                                                 <div class="content">
-                                                    <h4><a href="product-details.html">Wi-Fi Smart Camera</a></h4>
-                                                    <p class="quantity">1x - <span class="amount">$35.00</span></p>
+                                                    <h4><a href="ProductDetails.aspx">Wi-Fi Smart Camera</a></h4>
+                                                    <p class="quantity">1x - <span class="amount">KSH 3500</span></p>
                                                 </div>
                                             </li>
                                         </ul>
                                         <div class="bottom">
                                             <div class="total">
                                                 <span>Total</span>
-                                                <span class="total-amount">$134.00</span>
+                                                <span class="total-amount">KSH 1340</span>
                                             </div>
                                             <div class="button">
-                                                <a href="checkout.html" class="btn animate">Checkout</a>
+                                                <a href="Checkout.aspx" class="btn animate">Checkout</a>
                                             </div>
                                         </div>
                                     </div>
@@ -229,31 +221,31 @@
                         <div class="mega-category-menu">
                             <span class="cat-button"><i class="lni lni-menu"></i>All Categories</span>
                             <ul class="sub-category">
-                                <li><a href="product-grids.html">Electronics <i class="lni lni-chevron-right"></i></a>
+                                <li><a href="ProductBazaar.aspx">Electronics <i class="lni lni-chevron-right"></i></a>
                                     <ul class="inner-sub-category">
-                                        <li><a href="product-grids.html">Digital Cameras</a></li>
-                                        <li><a href="product-grids.html">Camcorders</a></li>
-                                        <li><a href="product-grids.html">Camera Drones</a></li>
-                                        <li><a href="product-grids.html">Smart Watches</a></li>
-                                        <li><a href="product-grids.html">Headphones</a></li>
-                                        <li><a href="product-grids.html">MP3 Players</a></li>
-                                        <li><a href="product-grids.html">Microphones</a></li>
-                                        <li><a href="product-grids.html">Chargers</a></li>
-                                        <li><a href="product-grids.html">Batteries</a></li>
-                                        <li><a href="product-grids.html">Cables & Adapters</a></li>
+                                        <li><a href="ProductBazaar.aspx">Digital Cameras</a></li>
+                                        <li><a href="ProductBazaar.aspx">Camcorders</a></li>
+                                        <li><a href="ProductBazaar.aspx">Camera Drones</a></li>
+                                        <li><a href="ProductBazaar.aspx">Smart Watches</a></li>
+                                        <li><a href="ProductBazaar.aspx">Headphones</a></li>
+                                        <li><a href="ProductBazaar.aspx">MP3 Players</a></li>
+                                        <li><a href="ProductBazaar.aspx">Microphones</a></li>
+                                        <li><a href="ProductBazaar.aspx">Chargers</a></li>
+                                        <li><a href="ProductBazaar.aspx">Batteries</a></li>
+                                        <li><a href="ProductBazaar.aspx">Cables & Adapters</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="product-grids.html">accessories</a></li>
-                                <li><a href="product-grids.html">Televisions</a></li>
-                                <li><a href="product-grids.html">best selling</a></li>
-                                <li><a href="product-grids.html">top 100 offer</a></li>
-                                <li><a href="product-grids.html">sunglass</a></li>
-                                <li><a href="product-grids.html">watch</a></li>
-                                <li><a href="product-grids.html">man’s product</a></li>
-                                <li><a href="product-grids.html">Home Audio & Theater</a></li>
-                                <li><a href="product-grids.html">Computers & Tablets </a></li>
-                                <li><a href="product-grids.html">Video Games </a></li>
-                                <li><a href="product-grids.html">Home Appliances </a></li>
+                                <li><a href="ProductBazaar.aspx">accessories</a></li>
+                                <li><a href="ProductBazaar.aspx">Televisions</a></li>
+                                <li><a href="ProductBazaar.aspx">best selling</a></li>
+                                <li><a href="ProductBazaar.aspx">top 100 offer</a></li>
+                                <li><a href="ProductBazaar.aspx">sunglass</a></li>
+                                <li><a href="ProductBazaar.aspx">watch</a></li>
+                                <li><a href="ProductBazaar.aspx">man’s product</a></li>
+                                <li><a href="ProductBazaar.aspx">Home Audio & Theater</a></li>
+                                <li><a href="ProductBazaar.aspx">Computers & Tablets </a></li>
+                                <li><a href="ProductBazaar.aspx">Video Games </a></li>
+                                <li><a href="ProductBazaar.aspx">Home Appliances </a></li>
                             </ul>
                         </div>
                         <!-- End Mega Category Menu -->
@@ -269,21 +261,19 @@
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 <ul id="nav" class="navbar-nav ms-auto">
                                     <li class="nav-item">
-                                        <a href="Home-2.aspx" aria-label="Toggle navigation">Home</a>
-                                        <a href="Home-2.aspx">Home-2.aspx</a>
+                                        <a href="Home.aspx" class="active" aria-label="Toggle navigation">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="dd-menu active collapsed" href="javascript:void(0)"
-                                            data-bs-toggle="collapse" data-bs-target="#submenu-1-2"
-                                            aria-controls="navbarSupportedContent" aria-expanded="false"
-                                            aria-label="Toggle navigation">Pages</a>
+                                        <a class="dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse"
+                                            data-bs-target="#submenu-1-2" aria-controls="navbarSupportedContent"
+                                            aria-expanded="false" aria-label="Toggle navigation">Pages</a>
                                         <ul class="sub-menu collapse" id="submenu-1-2">
-                                            <li class="nav-item active"><a href="about-us.html">About Us</a></li>
-                                            <li class="nav-item"><a href="faq.html">Faq</a></li>
-                                            <li class="nav-item"><a href="login.html">Login</a></li>
-                                            <li class="nav-item"><a href="register.html">Register</a></li>
-                                            <li class="nav-item"><a href="mail-success.html">Mail Success</a></li>
-                                            <li class="nav-item"><a href="404.html">404 Error</a></li>
+                                            <li class="nav-item"><a href="AboutUs.aspx">About Us</a></li>
+                                            <li class="nav-item"><a href="Faq.aspx">Faq</a></li>
+                                            <li class="nav-item"><a href="Login.aspx">Login</a></li>
+                                            <li class="nav-item"><a href="Register.aspx">Register</a></li>
+                                            <li class="nav-item"><a href="MailSuccess.aspx">Mail Success</a></li>
+                                            <li class="nav-item"><a href="404.aspx">404 Error</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">
@@ -291,11 +281,11 @@
                                             data-bs-target="#submenu-1-3" aria-controls="navbarSupportedContent"
                                             aria-expanded="false" aria-label="Toggle navigation">Shop</a>
                                         <ul class="sub-menu collapse" id="submenu-1-3">
-                                            <li class="nav-item"><a href="product-grids.html">Shop Grid</a></li>
+                                            <li class="nav-item"><a href="ProductBazaar.aspx">Shop Grid</a></li>
                                             <li class="nav-item"><a href="product-list.html">Shop List</a></li>
-                                            <li class="nav-item"><a href="product-details.html">shop Single</a></li>
-                                            <li class="nav-item"><a href="cart.html">Cart</a></li>
-                                            <li class="nav-item"><a href="checkout.html">Checkout</a></li>
+                                            <li class="nav-item"><a href="ProductDetails.aspx">shop Single</a></li>
+                                            <li class="nav-item"><a href="Cart.aspx">Cart</a></li>
+                                            <li class="nav-item"><a href="Checkout.aspx">Checkout</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">
@@ -303,15 +293,14 @@
                                             data-bs-target="#submenu-1-4" aria-controls="navbarSupportedContent"
                                             aria-expanded="false" aria-label="Toggle navigation">Blog</a>
                                         <ul class="sub-menu collapse" id="submenu-1-4">
-                                            <li class="nav-item"><a href="blog-grid-sidebar.html">Blog Grid Sidebar</a>
+                                            <li class="nav-item"><a href="BlogGridSideBar.aspx">Blog Grid Sidebar</a>
                                             </li>
-                                            <li class="nav-item"><a href="blog-single.html">Blog Single</a></li>
-                                            <li class="nav-item"><a href="blog-single-sidebar.html">Blog Single
-                                                    Sibebar</a></li>
+                                            <li class="nav-item"><a href="BlogSingle.aspx">Blog Single</a></li>
+                                            <li class="nav-item"><a href="BlogSingleSideBar.aspx">Blog SingleSibebar</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="contact.html" aria-label="Toggle navigation">Contact Us</a>
+                                        <a href="Contact.aspx" aria-label="Toggle navigation">Contact Us</a>
                                     </li>
                                 </ul>
                             </div> <!-- navbar collapse -->
@@ -346,165 +335,976 @@
     </header>
     <!-- End Header Area -->
 
-    <!-- Start Breadcrumbs -->
-    <div class="breadcrumbs">
+    <!-- Start Hero Area -->
+    <section class="hero-area">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-md-6 col-12">
-                    <div class="breadcrumbs-content">
-                        <h1 class="page-title">About Us</h1>
+            <div class="row">
+                <div class="col-lg-8 col-12 custom-padding-right">
+                    <div class="slider-head">
+                        <!-- Start Hero Slider -->
+                        <div class="hero-slider">
+                            <!-- Start Single Slider -->
+                            <div class="single-slider"
+                                style="background-image: url(assets/images/hero/slider-bg1.jpg);">
+                                <div class="content">
+                                    <h2><span>No restocking fee (KSH35 savings)</span>
+                                        M75 Sport Watch
+                                    </h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut
+                                        labore dolore magna aliqua.</p>
+                                    <h3><span>Now Only</span> KSH320.99</h3>
+                                    <div class="button">
+                                        <a href="ProductBazaar.aspx" class="btn">Shop Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Slider -->
+                            <!-- Start Single Slider -->
+                            <div class="single-slider"
+                                style="background-image: url(assets/images/hero/slider-bg2.jpg);">
+                                <div class="content">
+                                    <h2><span>Big Sale Offer</span>
+                                        Get the Best Deal on CCTV Camera
+                                    </h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut
+                                        labore dolore magna aliqua.</p>
+                                    <h3><span>Combo Only:</span> KSH590.00</h3>
+                                    <div class="button">
+                                        <a href="ProductBazaar.aspx" class="btn">Shop Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Slider -->
+                        </div>
+                        <!-- End Hero Slider -->
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-12">
-                    <ul class="breadcrumb-nav">
-                        <li><a href="Home-2.aspx"><i class="lni lni-home"></i> Home</a></li>
-                        <li>About Us</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Breadcrumbs -->
-
-    <!-- Start About Area -->
-    <section class="about-us section">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-md-12 col-12">
-                    <div class="content-left">
-                        <img src="assets/images/about/about-img.jpg" alt="#">
-                        <a href="https://www.youtube.com/watch?v=r44RKWyfcFw&amp;fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM"
-                            class="glightbox video"><i class="lni lni-play"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-12">
-                    <!-- content-1 start -->
-                    <div class="content-right">
-                        <h2>ShopGrids - Your Trusted & Reliable Partner.</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id purus at risus
-                            pellentesque faucibus a quis eros. In eu fermentum leo. Integer ut eros lacus. Proin ut
-                            accumsan leo. Morbi vitae est eget dolor consequat aliquam eget quis dolor. Mauris rutrum
-                            fermentum erat, at euismod lorem pharetra nec. Duis erat lectus, ultrices euismod sagittis.
-                        </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi aliquip ex ea commodo consequat.</p>
+                <div class="col-lg-4 col-12">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-6 col-12 md-custom-padding">
+                            <!-- Start Small Banner -->
+                            <div class="hero-small-banner"
+                                style="background-image: url('assets/images/hero/slider-bnr.jpg');">
+                                <div class="content">
+                                    <h2>
+                                        <span>New line required</span>
+                                        iPhone 14 Pro Max
+                                    </h2>
+                                    <h3>KSH 259.99</h3>
+                                </div>
+                            </div>
+                            <!-- End Small Banner -->
+                        </div>
+                        <div class="col-lg-12 col-md-6 col-12">
+                            <!-- Start Small Banner -->
+                            <div class="hero-small-banner style2">
+                                <div class="content">
+                                    <h2>Weekly Sale!</h2>
+                                    <p>Saving up to 25% off all online store items this week.</p>
+                                    <div class="button">
+                                        <a class="btn" href="ProductBazaar.aspx">Shop Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Small Banner -->
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End About Area -->
+    <!-- End Hero Area -->
 
-    <!-- Start Team Area -->
-    <section class="team section">
+    <!-- Start Featured Categories Area -->
+    <section class="featured-categories section">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="section-title">
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Our Core Team</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">There are many variations of passages of Lorem
+                        <h2>Featured Categories</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Category -->
+                    <div class="single-category">
+                        <h3 class="heading">TV & Audios</h3>
+                        <ul>
+                            <li><a href="ProductBazaar.aspx">Smart Television</a></li>
+                            <li><a href="ProductBazaar.aspx">QLED TV</a></li>
+                            <li><a href="ProductBazaar.aspx">Audios</a></li>
+                            <li><a href="ProductBazaar.aspx">Headphones</a></li>
+                            <li><a href="ProductBazaar.aspx">View All</a></li>
+                        </ul>
+                        <div class="images">
+                            <img src="assets/images/featured-categories/fetured-item-1.png" alt="#">
+                        </div>
+                    </div>
+                    <!-- End Single Category -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Category -->
+                    <div class="single-category">
+                        <h3 class="heading">Desktop & Laptop</h3>
+                        <ul>
+                            <li><a href="ProductBazaar.aspx">Smart Television</a></li>
+                            <li><a href="ProductBazaar.aspx">QLED TV</a></li>
+                            <li><a href="ProductBazaar.aspx">Audios</a></li>
+                            <li><a href="ProductBazaar.aspx">Headphones</a></li>
+                            <li><a href="ProductBazaar.aspx">View All</a></li>
+                        </ul>
+                        <div class="images">
+                            <img src="assets/images/featured-categories/fetured-item-2.png" alt="#">
+                        </div>
+                    </div>
+                    <!-- End Single Category -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Category -->
+                    <div class="single-category">
+                        <h3 class="heading">Cctv Camera</h3>
+                        <ul>
+                            <li><a href="ProductBazaar.aspx">Smart Television</a></li>
+                            <li><a href="ProductBazaar.aspx">QLED TV</a></li>
+                            <li><a href="ProductBazaar.aspx">Audios</a></li>
+                            <li><a href="ProductBazaar.aspx">Headphones</a></li>
+                            <li><a href="ProductBazaar.aspx">View All</a></li>
+                        </ul>
+                        <div class="images">
+                            <img src="assets/images/featured-categories/fetured-item-3.png" alt="#">
+                        </div>
+                    </div>
+                    <!-- End Single Category -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Category -->
+                    <div class="single-category">
+                        <h3 class="heading">Dslr Camera</h3>
+                        <ul>
+                            <li><a href="ProductBazaar.aspx">Smart Television</a></li>
+                            <li><a href="ProductBazaar.aspx">QLED TV</a></li>
+                            <li><a href="ProductBazaar.aspx">Audios</a></li>
+                            <li><a href="ProductBazaar.aspx">Headphones</a></li>
+                            <li><a href="ProductBazaar.aspx">View All</a></li>
+                        </ul>
+                        <div class="images">
+                            <img src="assets/images/featured-categories/fetured-item-4.png" alt="#">
+                        </div>
+                    </div>
+                    <!-- End Single Category -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Category -->
+                    <div class="single-category">
+                        <h3 class="heading">Smart Phones</h3>
+                        <ul>
+                            <li><a href="ProductBazaar.aspx">Smart Television</a></li>
+                            <li><a href="ProductBazaar.aspx">QLED TV</a></li>
+                            <li><a href="ProductBazaar.aspx">Audios</a></li>
+                            <li><a href="ProductBazaar.aspx">Headphones</a></li>
+                            <li><a href="ProductBazaar.aspx">View All</a></li>
+                        </ul>
+                        <div class="images">
+                            <img src="assets/images/featured-categories/fetured-item-5.png" alt="#">
+                        </div>
+                    </div>
+                    <!-- End Single Category -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Category -->
+                    <div class="single-category">
+                        <h3 class="heading">Game Console</h3>
+                        <ul>
+                            <li><a href="ProductBazaar.aspx">Smart Television</a></li>
+                            <li><a href="ProductBazaar.aspx">QLED TV</a></li>
+                            <li><a href="ProductBazaar.aspx">Audios</a></li>
+                            <li><a href="ProductBazaar.aspx">Headphones</a></li>
+                            <li><a href="ProductBazaar.aspx">View All</a></li>
+                        </ul>
+                        <div class="images">
+                            <img src="assets/images/featured-categories/fetured-item-6.png" alt="#">
+                        </div>
+                    </div>
+                    <!-- End Single Category -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Features Area -->
+
+    <!-- Start Trending Product Area -->
+    <section class="trending-product section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2>Trending Product</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Start Single Product -->
+                    <div class="single-product">
+                        <div class="product-image">
+                            <img src="assets/images/products/product-1.jpg" alt="#">
+                            <div class="button">
+                                <a href="ProductDetails.aspx" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="category">Watches</span>
+                            <h4 class="title">
+                                <a href="ProductBazaar.aspx">Xiaomi Mi Band 5</a>
+                            </h4>
+                            <ul class="review">
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star"></i></li>
+                                <li><span>4.0 Review(s)</span></li>
+                            </ul>
+                            <div class="price">
+                                <span>KSH199.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Product -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Start Single Product -->
+                    <div class="single-product">
+                        <div class="product-image">
+                            <img src="assets/images/products/product-2.jpg" alt="#">
+                            <span class="sale-tag">-25%</span>
+                            <div class="button">
+                                <a href="ProductDetails.aspx" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="category">Speaker</span>
+                            <h4 class="title">
+                                <a href="ProductBazaar.aspx">Big Power Sound Speaker</a>
+                            </h4>
+                            <ul class="review">
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><span>5.0 Review(s)</span></li>
+                            </ul>
+                            <div class="price">
+                                <span>KSH275.00</span>
+                                <span class="discount-price">KSH300.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Product -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Start Single Product -->
+                    <div class="single-product">
+                        <div class="product-image">
+                            <img src="assets/images/products/product-3.jpg" alt="#">
+                            <div class="button">
+                                <a href="ProductDetails.aspx" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="category">Camera</span>
+                            <h4 class="title">
+                                <a href="ProductBazaar.aspx">WiFi Security Camera</a>
+                            </h4>
+                            <ul class="review">
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><span>5.0 Review(s)</span></li>
+                            </ul>
+                            <div class="price">
+                                <span>KSH399.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Product -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Start Single Product -->
+                    <div class="single-product">
+                        <div class="product-image">
+                            <img src="assets/images/products/product-4.jpg" alt="#">
+                            <span class="new-tag">New</span>
+                            <div class="button">
+                                <a href="ProductDetails.aspx" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="category">Phones</span>
+                            <h4 class="title">
+                                <a href="ProductBazaar.aspx">iphone 6x plus</a>
+                            </h4>
+                            <ul class="review">
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><span>5.0 Review(s)</span></li>
+                            </ul>
+                            <div class="price">
+                                <span>KSH400.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Product -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Start Single Product -->
+                    <div class="single-product">
+                        <div class="product-image">
+                            <img src="assets/images/products/product-5.jpg" alt="#">
+                            <div class="button">
+                                <a href="ProductDetails.aspx" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="category">Headphones</span>
+                            <h4 class="title">
+                                <a href="ProductBazaar.aspx">Wireless Headphones</a>
+                            </h4>
+                            <ul class="review">
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><span>5.0 Review(s)</span></li>
+                            </ul>
+                            <div class="price">
+                                <span>KSH350.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Product -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Start Single Product -->
+                    <div class="single-product">
+                        <div class="product-image">
+                            <img src="assets/images/products/product-6.jpg" alt="#">
+                            <div class="button">
+                                <a href="ProductDetails.aspx" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="category">Speaker</span>
+                            <h4 class="title">
+                                <a href="ProductBazaar.aspx">Mini Bluetooth Speaker</a>
+                            </h4>
+                            <ul class="review">
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star"></i></li>
+                                <li><span>4.0 Review(s)</span></li>
+                            </ul>
+                            <div class="price">
+                                <span>KSH70.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Product -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Start Single Product -->
+                    <div class="single-product">
+                        <div class="product-image">
+                            <img src="assets/images/products/product-7.jpg" alt="#">
+                            <span class="sale-tag">-50%</span>
+                            <div class="button">
+                                <a href="ProductDetails.aspx" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="category">Headphones</span>
+                            <h4 class="title">
+                                <a href="ProductBazaar.aspx">PX7 Wireless Headphones</a>
+                            </h4>
+                            <ul class="review">
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star"></i></li>
+                                <li><span>4.0 Review(s)</span></li>
+                            </ul>
+                            <div class="price">
+                                <span>KSH100.00</span>
+                                <span class="discount-price">KSH200.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Product -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Start Single Product -->
+                    <div class="single-product">
+                        <div class="product-image">
+                            <img src="assets/images/products/product-8.jpg" alt="#">
+                            <div class="button">
+                                <a href="ProductDetails.aspx" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <span class="category">Laptop</span>
+                            <h4 class="title">
+                                <a href="ProductBazaar.aspx">Apple MacBook Air</a>
+                            </h4>
+                            <ul class="review">
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><span>5.0 Review(s)</span></li>
+                            </ul>
+                            <div class="price">
+                                <span>KSH899.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Product -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Trending Product Area -->
+
+    <!-- Start Banner Area -->
+    <section class="banner section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="single-banner" style="background-image:url('assets/images/banner/banner-1-bg.jpg')">
+                        <div class="content">
+                            <h2>Smart Watch 2.0</h2>
+                            <p>Space Gray Aluminum Case with <br>Black/Volt Real Sport Band </p>
+                            <div class="button">
+                                <a href="ProductBazaar.aspx" class="btn">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="single-banner custom-responsive-margin"
+                        style="background-image:url('assets/images/banner/banner-2-bg.jpg')">
+                        <div class="content">
+                            <h2>Smart Headphone</h2>
+                            <p>Lorem ipsum dolor sit amet, <br>eiusmod tempor
+                                incididunt ut labore.</p>
+                            <div class="button">
+                                <a href="ProductBazaar.aspx" class="btn">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Area -->
+
+    <!-- Start Special Offer -->
+    <section class="special-offer section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2>Special Offer</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-md-12 col-12">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <!-- Start Single Product -->
+                            <div class="single-product">
+                                <div class="product-image">
+                                    <img src="assets/images/products/product-3.jpg" alt="#">
+                                    <div class="button">
+                                        <a href="ProductDetails.aspx" class="btn"><i class="lni lni-cart"></i> Add to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                    <span class="category">Camera</span>
+                                    <h4 class="title">
+                                        <a href="ProductBazaar.aspx">WiFi Security Camera</a>
+                                    </h4>
+                                    <ul class="review">
+                                        <li><i class="lni lni-star-filled"></i></li>
+                                        <li><i class="lni lni-star-filled"></i></li>
+                                        <li><i class="lni lni-star-filled"></i></li>
+                                        <li><i class="lni lni-star-filled"></i></li>
+                                        <li><i class="lni lni-star-filled"></i></li>
+                                        <li><span>5.0 Review(s)</span></li>
+                                    </ul>
+                                    <div class="price">
+                                        <span>KSH399.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Product -->
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <!-- Start Single Product -->
+                            <div class="single-product">
+                                <div class="product-image">
+                                    <img src="assets/images/products/product-8.jpg" alt="#">
+                                    <div class="button">
+                                        <a href="ProductDetails.aspx" class="btn"><i class="lni lni-cart"></i> Add to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                    <span class="category">Laptop</span>
+                                    <h4 class="title">
+                                        <a href="ProductBazaar.aspx">Apple MacBook Air</a>
+                                    </h4>
+                                    <ul class="review">
+                                        <li><i class="lni lni-star-filled"></i></li>
+                                        <li><i class="lni lni-star-filled"></i></li>
+                                        <li><i class="lni lni-star-filled"></i></li>
+                                        <li><i class="lni lni-star-filled"></i></li>
+                                        <li><i class="lni lni-star-filled"></i></li>
+                                        <li><span>5.0 Review(s)</span></li>
+                                    </ul>
+                                    <div class="price">
+                                        <span>KSH899.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Product -->
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <!-- Start Single Product -->
+                            <div class="single-product">
+                                <div class="product-image">
+                                    <img src="assets/images/products/product-6.jpg" alt="#">
+                                    <div class="button">
+                                        <a href="ProductDetails.aspx" class="btn"><i class="lni lni-cart"></i> Add to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                    <span class="category">Speaker</span>
+                                    <h4 class="title">
+                                        <a href="ProductBazaar.aspx">Bluetooth Speaker</a>
+                                    </h4>
+                                    <ul class="review">
+                                        <li><i class="lni lni-star-filled"></i></li>
+                                        <li><i class="lni lni-star-filled"></i></li>
+                                        <li><i class="lni lni-star-filled"></i></li>
+                                        <li><i class="lni lni-star-filled"></i></li>
+                                        <li><i class="lni lni-star"></i></li>
+                                        <li><span>4.0 Review(s)</span></li>
+                                    </ul>
+                                    <div class="price">
+                                        <span>KSH70.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Product -->
+                        </div>
+                    </div>
+                    <!-- Start Banner -->
+                    <div class="single-banner right"
+                        style="background-image:url('assets/images/banner/banner-3-bg.jpg');margin-top: 30px;">
+                        <div class="content">
+                            <h2>Samsung Notebook 9 </h2>
+                            <p>Lorem ipsum dolor sit amet, <br>eiusmod tempor
+                                incididunt ut labore.</p>
+                            <div class="price">
+                                <span>KSH590.00</span>
+                            </div>
+                            <div class="button">
+                                <a href="ProductBazaar.aspx" class="btn">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Banner -->
+                </div>
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="offer-content">
+                        <div class="image">
+                            <img src="assets/images/offer/offer-image.jpg" alt="#">
+                            <span class="sale-tag">-50%</span>
+                        </div>
+                        <div class="text">
+                            <h2><a href="ProductBazaar.aspx">Bluetooth Headphone</a></h2>
+                            <ul class="review">
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><span>5.0 Review(s)</span></li>
+                            </ul>
+                            <div class="price">
+                                <span>KSH200.00</span>
+                                <span class="discount-price">KSH400.00</span>
+                            </div>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry incididunt ut
+                                eiusmod tempor labores.</p>
+                        </div>
+                        <!-- <div class="box-head">
+                            <div class="box">
+                                <h1 id="days">000</h1>
+                                <h2 id="daystxt">Days</h2>
+                            </div>
+                            <div class="box">
+                                <h1 id="hours">00</h1>
+                                <h2 id="hourstxt">Hours</h2>
+                            </div>
+                            <div class="box">
+                                <h1 id="minutes">00</h1>
+                                <h2 id="minutestxt">Minutes</h2>
+                            </div>
+                            <div class="box">
+                                <h1 id="seconds">00</h1>
+                                <h2 id="secondstxt">Secondes</h2>
+                            </div>
+                        </div> -->
+                        <div style="background: rgb(204, 24, 24);" class="alert">
+                            <h1 style="padding: 50px 80px;color: white;">We are sorry, Event ended ! </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Special Offer -->
+
+    <!-- Start Home Product List -->
+    <section class="home-product-list section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12 custom-responsive-margin">
+                    <h4 class="list-title">Best Sellers</h4>
+                    <!-- Start Single List -->
+                    <div class="single-list">
+                        <div class="list-image">
+                            <a href="ProductBazaar.aspx"><img src="assets/images/home-product-list/01.jpg" alt="#"></a>
+                        </div>
+                        <div class="list-info">
+                            <h3>
+                                <a href="ProductBazaar.aspx">GoPro Hero4 Silver</a>
+                            </h3>
+                            <span>KSH287.99</span>
+                        </div>
+                    </div>
+                    <!-- End Single List -->
+                    <!-- Start Single List -->
+                    <div class="single-list">
+                        <div class="list-image">
+                            <a href="ProductBazaar.aspx"><img src="assets/images/home-product-list/02.jpg" alt="#"></a>
+                        </div>
+                        <div class="list-info">
+                            <h3>
+                                <a href="ProductBazaar.aspx">Puro Sound Labs BT2200</a>
+                            </h3>
+                            <span>KSH95.00</span>
+                        </div>
+                    </div>
+                    <!-- End Single List -->
+                    <!-- Start Single List -->
+                    <div class="single-list">
+                        <div class="list-image">
+                            <a href="ProductBazaar.aspx"><img src="assets/images/home-product-list/03.jpg" alt="#"></a>
+                        </div>
+                        <div class="list-info">
+                            <h3>
+                                <a href="ProductBazaar.aspx">HP OfficeJet Pro 8710</a>
+                            </h3>
+                            <span>KSH120.00</span>
+                        </div>
+                    </div>
+                    <!-- End Single List -->
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 custom-responsive-margin">
+                    <h4 class="list-title">New Arrivals</h4>
+                    <!-- Start Single List -->
+                    <div class="single-list">
+                        <div class="list-image">
+                            <a href="ProductBazaar.aspx"><img src="assets/images/home-product-list/04.jpg" alt="#"></a>
+                        </div>
+                        <div class="list-info">
+                            <h3>
+                                <a href="ProductBazaar.aspx">iPhone X 256 GB Space Gray</a>
+                            </h3>
+                            <span>KSH1150.00</span>
+                        </div>
+                    </div>
+                    <!-- End Single List -->
+                    <!-- Start Single List -->
+                    <div class="single-list">
+                        <div class="list-image">
+                            <a href="ProductBazaar.aspx"><img src="assets/images/home-product-list/05.jpg" alt="#"></a>
+                        </div>
+                        <div class="list-info">
+                            <h3>
+                                <a href="ProductBazaar.aspx">Canon EOS M50 Mirrorless Camera</a>
+                            </h3>
+                            <span>KSH950.00</span>
+                        </div>
+                    </div>
+                    <!-- End Single List -->
+                    <!-- Start Single List -->
+                    <div class="single-list">
+                        <div class="list-image">
+                            <a href="ProductBazaar.aspx"><img src="assets/images/home-product-list/06.jpg" alt="#"></a>
+                        </div>
+                        <div class="list-info">
+                            <h3>
+                                <a href="ProductBazaar.aspx">Microsoft Xbox One S</a>
+                            </h3>
+                            <span>KSH298.00</span>
+                        </div>
+                    </div>
+                    <!-- End Single List -->
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <h4 class="list-title">Top Rated</h4>
+                    <!-- Start Single List -->
+                    <div class="single-list">
+                        <div class="list-image">
+                            <a href="ProductBazaar.aspx"><img src="assets/images/home-product-list/07.jpg" alt="#"></a>
+                        </div>
+                        <div class="list-info">
+                            <h3>
+                                <a href="ProductBazaar.aspx">Samsung Gear 360 VR Camera</a>
+                            </h3>
+                            <span>KSH68.00</span>
+                        </div>
+                    </div>
+                    <!-- End Single List -->
+                    <!-- Start Single List -->
+                    <div class="single-list">
+                        <div class="list-image">
+                            <a href="ProductBazaar.aspx"><img src="assets/images/home-product-list/08.jpg" alt="#"></a>
+                        </div>
+                        <div class="list-info">
+                            <h3>
+                                <a href="ProductBazaar.aspx">Samsung Galaxy S9+ 64 GB</a>
+                            </h3>
+                            <span>KSH840.00</span>
+                        </div>
+                    </div>
+                    <!-- End Single List -->
+                    <!-- Start Single List -->
+                    <div class="single-list">
+                        <div class="list-image">
+                            <a href="ProductBazaar.aspx"><img src="assets/images/home-product-list/09.jpg" alt="#"></a>
+                        </div>
+                        <div class="list-info">
+                            <h3>
+                                <a href="ProductBazaar.aspx">Zeus Bluetooth Headphones</a>
+                            </h3>
+                            <span>KSH28.00</span>
+                        </div>
+                    </div>
+                    <!-- End Single List -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Home Product List -->
+
+    <!-- Start Brands Area -->
+    <div class="brands">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3 col-md-12 col-12">
+                    <h2 class="title">Popular Brands</h2>
+                </div>
+            </div>
+            <div class="brands-logo-wrapper">
+                <div class="brands-logo-carousel d-flex align-items-center justify-content-between">
+                    <div class="brand-logo">
+                        <img src="assets/images/brands/01.png" alt="#">
+                    </div>
+                    <div class="brand-logo">
+                        <img src="assets/images/brands/02.png" alt="#">
+                    </div>
+                    <div class="brand-logo">
+                        <img src="assets/images/brands/03.png" alt="#">
+                    </div>
+                    <div class="brand-logo">
+                        <img src="assets/images/brands/04.png" alt="#">
+                    </div>
+                    <div class="brand-logo">
+                        <img src="assets/images/brands/05.png" alt="#">
+                    </div>
+                    <div class="brand-logo">
+                        <img src="assets/images/brands/06.png" alt="#">
+                    </div>
+                    <div class="brand-logo">
+                        <img src="assets/images/brands/03.png" alt="#">
+                    </div>
+                    <div class="brand-logo">
+                        <img src="assets/images/brands/04.png" alt="#">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Brands Area -->
+
+    <!-- Start Blog Section Area -->
+    <section class="blog-section section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2>Our Latest News</h2>
+                        <p>There are many variations of passages of Lorem
                             Ipsum available, but the majority have suffered alteration in some form.</p>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-12">
-                    <!-- Start Single Team -->
-                    <div class="single-team">
-                        <div class="image">
-                            <img src="assets/images/team/01.jpg" alt="#">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Blog -->
+                    <div class="single-blog">
+                        <div class="blog-img">
+                            <a href="BlogSingleSideBar.aspx">
+                                <img src="assets/images/blog/blog-1.jpg" alt="#">
+                            </a>
                         </div>
-                        <div class="content">
-                            <div class="info">
-                                <h3>Grace Wright</h3>
-                                <h5>Founder, CEO</h5>
-                                <ul class="social">
-                                    <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a>
-                                    </li>
-                                    <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a>
-                                    </li>
-                                    <li><a href="javascript:void(0)"><i class="lni lni-skype"></i></a>
-                                    </li>
-                                </ul>
+                        <div class="blog-content">
+                            <a class="category" href="javascript:void(0)">eCommerce</a>
+                            <h4>
+                                <a href="BlogSingleSideBar.aspx">What information is needed for shipping?</a>
+                            </h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt.</p>
+                            <div class="button">
+                                <a href="javascript:void(0)" class="btn">Read More</a>
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Team -->
+                    <!-- End Single Blog -->
                 </div>
-                <div class="col-lg-3 col-md-6 col-12">
-                    <!-- Start Single Team -->
-                    <div class="single-team">
-                        <div class="image">
-                            <img src="assets/images/team/02.jpg" alt="#">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Blog -->
+                    <div class="single-blog">
+                        <div class="blog-img">
+                            <a href="BlogSingleSideBar.aspx">
+                                <img src="assets/images/blog/blog-2.jpg" alt="#">
+                            </a>
                         </div>
-                        <div class="content">
-                            <div class="info">
-                                <h3>Taylor Jackson</h3>
-                                <h5>Financial Director</h5>
-                                <ul class="social">
-                                    <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a>
-                                    </li>
-                                    <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a>
-                                    </li>
-                                    <li><a href="javascript:void(0)"><i class="lni lni-skype"></i></a>
-                                    </li>
-                                </ul>
+                        <div class="blog-content">
+                            <a class="category" href="javascript:void(0)">Gaming</a>
+                            <h4>
+                                <a href="BlogSingleSideBar.aspx">Interesting fact about gaming consoles</a>
+                            </h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt.</p>
+                            <div class="button">
+                                <a href="javascript:void(0)" class="btn">Read More</a>
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Team -->
+                    <!-- End Single Blog -->
                 </div>
-                <div class="col-lg-3 col-md-6 col-12">
-                    <!-- Start Single Team -->
-                    <div class="single-team">
-                        <div class="image">
-                            <img src="assets/images/team/03.jpg" alt="#">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Blog -->
+                    <div class="single-blog">
+                        <div class="blog-img">
+                            <a href="BlogSingleSideBar.aspx">
+                                <img src="assets/images/blog/blog-3.jpg" alt="#">
+                            </a>
                         </div>
-                        <div class="content">
-                            <div class="info">
-                                <h3>Quinton Cross</h3>
-                                <h5>Marketing Director</h5>
-                                <ul class="social">
-                                    <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a>
-                                    </li>
-                                    <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a>
-                                    </li>
-                                    <li><a href="javascript:void(0)"><i class="lni lni-skype"></i></a>
-                                    </li>
-                                </ul>
+                        <div class="blog-content">
+                            <a class="category" href="javascript:void(0)">Electronic</a>
+                            <h4>
+                                <a href="BlogSingleSideBar.aspx">Electronics, instrumentation & control engineering
+                                </a>
+                            </h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt.</p>
+                            <div class="button">
+                                <a href="javascript:void(0)" class="btn">Read More</a>
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Team -->
-                </div>
-                <div class="col-lg-3 col-md-6 col-12">
-                    <!-- Start Single Team -->
-                    <div class="single-team">
-                        <div class="image">
-                            <img src="assets/images/team/04.jpg" alt="#">
-                        </div>
-                        <div class="content">
-                            <div class="info">
-                                <h3>Liana Mullen</h3>
-                                <h5>Lead Designer</h5>
-                                <ul class="social">
-                                    <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a>
-                                    </li>
-                                    <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a>
-                                    </li>
-                                    <li><a href="javascript:void(0)"><i class="lni lni-skype"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Team -->
+                    <!-- End Single Blog -->
                 </div>
             </div>
         </div>
     </section>
-    <!-- End Team Area -->
+    <!-- End Blog Section Area -->
+
+    <!-- Start Shipping Info -->
+    <section class="shipping-info">
+        <div class="container">
+            <ul>
+                <!-- Free Shipping -->
+                <li>
+                    <div class="media-icon">
+                        <i class="lni lni-delivery"></i>
+                    </div>
+                    <div class="media-body">
+                        <h5>Free Shipping</h5>
+                        <span>On order over KSH99</span>
+                    </div>
+                </li>
+                <!-- Money Return -->
+                <li>
+                    <div class="media-icon">
+                        <i class="lni lni-support"></i>
+                    </div>
+                    <div class="media-body">
+                        <h5>24/7 Support.</h5>
+                        <span>Live Chat Or Call.</span>
+                    </div>
+                </li>
+                <!-- Support 24/7 -->
+                <li>
+                    <div class="media-icon">
+                        <i class="lni lni-credit-cards"></i>
+                    </div>
+                    <div class="media-body">
+                        <h5>Online Payment.</h5>
+                        <span>Secure Payment Services.</span>
+                    </div>
+                </li>
+                <!-- Safe Payment -->
+                <li>
+                    <div class="media-icon">
+                        <i class="lni lni-reload"></i>
+                    </div>
+                    <div class="media-body">
+                        <h5>Easy Return.</h5>
+                        <span>Hassle Free Shopping.</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- End Shipping Info -->
 
     <!-- Start Footer Area -->
     <footer class="footer">
@@ -515,7 +1315,7 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-4 col-12">
                             <div class="footer-logo">
-                                <a href="Home-2.aspx">
+                                <a href="Home.aspx">
                                     <img src="assets/images/logo/white-logo.svg" alt="#">
                                 </a>
                             </div>
@@ -556,7 +1356,7 @@
                                     <li><span>Saturday: </span> 10.00 am - 6.00 pm</li>
                                 </ul>
                                 <p class="mail">
-                                    <a href="mailto:support@shopgrids.com">support@shopgrids.com</a>
+                                    <a href="mailto:support@ByteBazaar.com">support@ByteBazaar.com</a>
                                 </p>
                             </div>
                             <!-- End Single Widget -->
@@ -630,8 +1430,8 @@
                         </div>
                         <div class="col-lg-4 col-12">
                             <div class="copyright">
-                                <p>Designed and Developed by<a href="https://graygrids.com/" rel="nofollow"
-                                        target="_blank">GrayGrids</a></p>
+                                <p>Designed and Developed by<a href="https://ByteBazaar.com/" rel="nofollow"
+                                        target="_blank">ByteBazaar</a></p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-12">
@@ -664,18 +1464,77 @@
     <script src="assets/js/glightbox.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script type="text/javascript">
-
-        //========= glightbox
-        GLightbox({
-            'href': 'https://www.youtube.com/watch?v=r44RKWyfcFw&fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM',
-            'type': 'video',
-            'source': 'youtube', //vimeo, youtube or local
-            'width': 900,
-            'autoplayVideos': true,
+        //========= Hero Slider 
+        tns({
+            container: '.hero-slider',
+            slideBy: 'page',
+            autoplay: true,
+            autoplayButtonOutput: false,
+            mouseDrag: true,
+            gutter: 0,
+            items: 1,
+            nav: false,
+            controls: true,
+            controlsText: ['<i class="lni lni-chevron-left"></i>', '<i class="lni lni-chevron-right"></i>'],
         });
+
+        //======== Brand Slider
+        tns({
+            container: '.brands-logo-carousel',
+            autoplay: true,
+            autoplayButtonOutput: false,
+            mouseDrag: true,
+            gutter: 15,
+            nav: false,
+            controls: false,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                540: {
+                    items: 3,
+                },
+                768: {
+                    items: 5,
+                },
+                992: {
+                    items: 6,
+                }
+            }
+        });
+
+    </script>
+    <script>
+        const finaleDate = new Date("April 01, 2024 00:00:00").getTime();
+
+        const timer = () => {
+            const now = new Date().getTime();
+            let diff = finaleDate - now;
+            if (diff < 0) {
+                document.querySelector('.alert').style.display = 'block';
+                document.querySelector('.container').style.display = 'none';
+            }
+
+            let days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            let hours = Math.floor(diff % (1000 * 60 * 60 * 24) / (1000 * 60 * 60));
+            let minutes = Math.floor(diff % (1000 * 60 * 60) / (1000 * 60));
+            let seconds = Math.floor(diff % (1000 * 60) / 1000);
+
+            days <= 99 ? days = `0KSH{days}` : days;
+            days <= 9 ? days = `00KSH{days}` : days;
+            hours <= 9 ? hours = `0KSH{hours}` : hours;
+            minutes <= 9 ? minutes = `0KSH{minutes}` : minutes;
+            seconds <= 9 ? seconds = `0KSH{seconds}` : seconds;
+
+            document.querySelector('#days').textContent = days;
+            document.querySelector('#hours').textContent = hours;
+            document.querySelector('#minutes').textContent = minutes;
+            document.querySelector('#seconds').textContent = seconds;
+
+        }
+        timer();
+        setInterval(timer, 1000);
     </script>
 </body>
 
-
-<!-- Mirrored from demo.graygrids.com/themes/shopgrids/about-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Feb 2024 12:41:51 GMT -->
 </html>
