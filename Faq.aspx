@@ -7,7 +7,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>FAQ - ShopGrids Bootstrap 5 eCommerce HTML Template.</title>
+    <title>FAQ - ByteBazaar eCommerce </title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
@@ -283,8 +283,8 @@
                                             data-bs-target="#submenu-1-3" aria-controls="navbarSupportedContent"
                                             aria-expanded="false" aria-label="Toggle navigation">Shop</a>
                                         <ul class="sub-menu collapse" id="submenu-1-3">
-                                            <li class="nav-item"><a href="ProductBazaar.aspx">Shop Grid</a></li>
-                                            <li class="nav-item"><a href="product-list.html">Shop List</a></li>
+                                            <li class="nav-item"><a href="ProductBazaar.aspx">Shop Bazaar</a></li>
+                                            <li class="nav-item"><a href="ProductList.aspx">Shop List</a></li>
                                             <li class="nav-item"><a href="ProductDetails.aspx">shop Single</a></li>
                                             <li class="nav-item"><a href="cart.html">Cart</a></li>
                                             <li class="nav-item"><a href="Checkout.aspx">Checkout</a></li>
@@ -569,11 +569,11 @@
                             <div class="single-footer f-link">
                                 <h3>Information</h3>
                                 <ul>
-                                    <li><a href="javascript:void(0)">About Us</a></li>
-                                    <li><a href="javascript:void(0)">Contact Us</a></li>
+                                    <li><a href="AboutUs.aspx">About Us</a></li>
+                                    <li><a href="Contact.aspx">Contact Us</a></li>
                                     <li><a href="javascript:void(0)">Downloads</a></li>
                                     <li><a href="javascript:void(0)">Sitemap</a></li>
-                                    <li><a href="javascript:void(0)">FAQs Page</a></li>
+                                    <li><a href="Faq.aspx">FAQs Page</a></li>
                                 </ul>
                             </div>
                             <!-- End Single Widget -->

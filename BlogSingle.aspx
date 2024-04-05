@@ -4,11 +4,11 @@
 <html class="no-js" lang="zxx">
 
 
-<!-- Mirrored from demo.Brycode.com/themes/shopgrids/BlogSingle.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Feb 2024 12:42:04 GMT -->
+<!-- Mirrored from demo.Brycode.com/themes/ByteBazaar eCommerce /BlogSingle.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Feb 2024 12:42:04 GMT -->
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Blog Single - ShopGrids Bootstrap 5 eCommerce HTML Template.</title>
+    <title>Blog Single - ByteBazaar eCommerce</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
@@ -178,12 +178,12 @@
                                                 <a href="javascript:void(0)" class="remove" title="Remove this item"><i
                                                         class="lni lni-close"></i></a>
                                                 <div class="cart-img-head">
-                                                    <a class="cart-img" href="product-details.html"><img
+                                                    <a class="cart-img" href="ProductDetails.aspx"><img
                                                             src="assets/images/header/cart-items/item1.jpg" alt="#"></a>
                                                 </div>
 
                                                 <div class="content">
-                                                    <h4><a href="product-details.html">
+                                                    <h4><a href="ProductDetails.aspx">
                                                             Apple Watch Series 6</a></h4>
                                                     <p class="quantity">1x - <span class="amount">$99.00</span></p>
                                                 </div>
@@ -192,11 +192,11 @@
                                                 <a href="javascript:void(0)" class="remove" title="Remove this item"><i
                                                         class="lni lni-close"></i></a>
                                                 <div class="cart-img-head">
-                                                    <a class="cart-img" href="product-details.html"><img
+                                                    <a class="cart-img" href="ProductDetails.aspx"><img
                                                             src="assets/images/header/cart-items/item2.jpg" alt="#"></a>
                                                 </div>
                                                 <div class="content">
-                                                    <h4><a href="product-details.html">Wi-Fi Smart Camera</a></h4>
+                                                    <h4><a href="ProductDetails.aspx">Wi-Fi Smart Camera</a></h4>
                                                     <p class="quantity">1x - <span class="amount">$35.00</span></p>
                                                 </div>
                                             </li>
@@ -289,9 +289,9 @@
                                             data-bs-target="#submenu-1-3" aria-controls="navbarSupportedContent"
                                             aria-expanded="false" aria-label="Toggle navigation">Shop</a>
                                         <ul class="sub-menu collapse" id="submenu-1-3">
-                                            <li class="nav-item"><a href="product-grids.html">Shop Grid</a></li>
-                                            <li class="nav-item"><a href="product-list.html">Shop List</a></li>
-                                            <li class="nav-item"><a href="product-details.html">shop Single</a></li>
+                                            <li class="nav-item"><a href="product-grids.html">Shop Bazaar</a></li>
+                                            <li class="nav-item"><a href="ProductList.aspx">Shop List</a></li>
+                                            <li class="nav-item"><a href="ProductDetails.aspx">shop Single</a></li>
                                             <li class="nav-item"><a href="cart.html">Cart</a></li>
                                             <li class="nav-item"><a href="checkout.html">Checkout</a></li>
                                         </ul>
@@ -796,5 +796,5 @@
 </body>
 
 
-<!-- Mirrored from demo.Brycode.com/themes/shopgrids/BlogSingle.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Feb 2024 12:42:06 GMT -->
+<!-- Mirrored from demo.Brycode.com/themes/ByteBazaar eCommerce /BlogSingle.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Feb 2024 12:42:06 GMT -->
 </html>

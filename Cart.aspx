@@ -282,8 +282,8 @@
                                             aria-controls="navbarSupportedContent" aria-expanded="false"
                                             aria-label="Toggle navigation">Shop</a>
                                         <ul class="sub-menu collapse" id="submenu-1-3">
-                                            <li class="nav-item"><a href="ProductBazaar.aspx">Shop Grid</a></li>
-                                            <li class="nav-item"><a href="product-list.html">Shop List</a></li>
+                                            <li class="nav-item"><a href="ProductBazaar.aspx">Shop Bazaar</a></li>
+                                            <li class="nav-item"><a href="ProductList.aspx">Shop List</a></li>
                                             <li class="nav-item"><a href="ProductDetails.aspx">shop Single</a></li>
                                             <li class="nav-item active"><a href="Cart.aspx">Cart</a></li>
                                             <li class="nav-item"><a href="Checkout.aspx">Checkout</a></li>

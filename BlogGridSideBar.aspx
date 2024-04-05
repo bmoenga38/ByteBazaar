@@ -8,7 +8,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Blog Grid Sidebar - ShopGrids Bootstrap 5 eCommerce HTML Template.</title>
+    <title>Blog Grid Sidebar - ByteBazaar eCommerce.</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
@@ -178,12 +178,12 @@
                                                 <a href="javascript:void(0)" class="remove" title="Remove this item"><i
                                                         class="lni lni-close"></i></a>
                                                 <div class="cart-img-head">
-                                                    <a class="cart-img" href="product-details.html"><img
+                                                    <a class="cart-img" href="ProductDetails.aspx"><img
                                                             src="assets/images/header/cart-items/item1.jpg" alt="#"></a>
                                                 </div>
 
                                                 <div class="content">
-                                                    <h4><a href="product-details.html">
+                                                    <h4><a href="ProductDetails.aspx">
                                                             Apple Watch Series 6</a></h4>
                                                     <p class="quantity">1x - <span class="amount">$99.00</span></p>
                                                 </div>
@@ -192,11 +192,11 @@
                                                 <a href="javascript:void(0)" class="remove" title="Remove this item"><i
                                                         class="lni lni-close"></i></a>
                                                 <div class="cart-img-head">
-                                                    <a class="cart-img" href="product-details.html"><img
+                                                    <a class="cart-img" href="ProductDetails.aspx"><img
                                                             src="assets/images/header/cart-items/item2.jpg" alt="#"></a>
                                                 </div>
                                                 <div class="content">
-                                                    <h4><a href="product-details.html">Wi-Fi Smart Camera</a></h4>
+                                                    <h4><a href="ProductDetails.aspx">Wi-Fi Smart Camera</a></h4>
                                                     <p class="quantity">1x - <span class="amount">$35.00</span></p>
                                                 </div>
                                             </li>
@@ -229,31 +229,31 @@
                         <div class="mega-category-menu">
                             <span class="cat-button"><i class="lni lni-menu"></i>All Categories</span>
                             <ul class="sub-category">
-                                <li><a href="product-grids.html">Electronics <i class="lni lni-chevron-right"></i></a>
+                                <li><a href="ProductBazaar.aspx">Electronics <i class="lni lni-chevron-right"></i></a>
                                     <ul class="inner-sub-category">
-                                        <li><a href="product-grids.html">Digital Cameras</a></li>
-                                        <li><a href="product-grids.html">Camcorders</a></li>
-                                        <li><a href="product-grids.html">Camera Drones</a></li>
-                                        <li><a href="product-grids.html">Smart Watches</a></li>
-                                        <li><a href="product-grids.html">Headphones</a></li>
-                                        <li><a href="product-grids.html">MP3 Players</a></li>
-                                        <li><a href="product-grids.html">Microphones</a></li>
-                                        <li><a href="product-grids.html">Chargers</a></li>
-                                        <li><a href="product-grids.html">Batteries</a></li>
-                                        <li><a href="product-grids.html">Cables & Adapters</a></li>
+                                        <li><a href="ProductBazaar.aspx">Digital Cameras</a></li>
+                                        <li><a href="ProductBazaar.aspx">Camcorders</a></li>
+                                        <li><a href="ProductBazaar.aspx">Camera Drones</a></li>
+                                        <li><a href="ProductBazaar.aspx">Smart Watches</a></li>
+                                        <li><a href="ProductBazaar.aspx">Headphones</a></li>
+                                        <li><a href="ProductBazaar.aspx">MP3 Players</a></li>
+                                        <li><a href="ProductBazaar.aspx">Microphones</a></li>
+                                        <li><a href="ProductBazaar.aspx">Chargers</a></li>
+                                        <li><a href="ProductBazaar.aspx">Batteries</a></li>
+                                        <li><a href="ProductBazaar.aspx">Cables & Adapters</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="product-grids.html">accessories</a></li>
-                                <li><a href="product-grids.html">Televisions</a></li>
-                                <li><a href="product-grids.html">best selling</a></li>
-                                <li><a href="product-grids.html">top 100 offer</a></li>
-                                <li><a href="product-grids.html">sunglass</a></li>
-                                <li><a href="product-grids.html">watch</a></li>
-                                <li><a href="product-grids.html">man’s product</a></li>
-                                <li><a href="product-grids.html">Home Audio & Theater</a></li>
-                                <li><a href="product-grids.html">Computers & Tablets </a></li>
-                                <li><a href="product-grids.html">Video Games </a></li>
-                                <li><a href="product-grids.html">Home Appliances </a></li>
+                                <li><a href="ProductBazaar.aspx">accessories</a></li>
+                                <li><a href="ProductBazaar.aspx">Televisions</a></li>
+                                <li><a href="ProductBazaar.aspx">best selling</a></li>
+                                <li><a href="ProductBazaar.aspx">top 100 offer</a></li>
+                                <li><a href="ProductBazaar.aspx">sunglass</a></li>
+                                <li><a href="ProductBazaar.aspx">watch</a></li>
+                                <li><a href="ProductBazaar.aspx">man’s product</a></li>
+                                <li><a href="ProductBazaar.aspx">Home Audio & Theater</a></li>
+                                <li><a href="ProductBazaar.aspx">Computers & Tablets </a></li>
+                                <li><a href="ProductBazaar.aspx">Video Games </a></li>
+                                <li><a href="ProductBazaar.aspx">Home Appliances </a></li>
                             </ul>
                         </div>
                         <!-- End Mega Category Menu -->
@@ -289,9 +289,9 @@
                                             data-bs-target="#submenu-1-3" aria-controls="navbarSupportedContent"
                                             aria-expanded="false" aria-label="Toggle navigation">Shop</a>
                                         <ul class="sub-menu collapse" id="submenu-1-3">
-                                            <li class="nav-item"><a href="product-grids.html">Shop Grid</a></li>
-                                            <li class="nav-item"><a href="product-list.html">Shop List</a></li>
-                                            <li class="nav-item"><a href="product-details.html">shop Single</a></li>
+                                            <li class="nav-item"><a href="ProductBazaar.aspx">Shop Bazaar</a></li>
+                                            <li class="nav-item"><a href="ProductList.aspx">Shop List</a></li>
+                                            <li class="nav-item"><a href="ProductDetails.aspx">shop Single</a></li>
                                             <li class="nav-item"><a href="cart.html">Cart</a></li>
                                             <li class="nav-item"><a href="checkout.html">Checkout</a></li>
                                         </ul>

@@ -7,7 +7,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Contact Us - eCommerce.</title>
+    <title>Contact Us - ByteBazaar eCommerce.</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
@@ -282,8 +282,8 @@
                                             data-bs-target="#submenu-1-3" aria-controls="navbarSupportedContent"
                                             aria-expanded="false" aria-label="Toggle navigation">Shop</a>
                                         <ul class="sub-menu collapse" id="submenu-1-3">
-                                            <li class="nav-item"><a href="ProductBazaar.aspx">Shop Grid</a></li>
-                                            <li class="nav-item"><a href="product-list.html">Shop List</a></li>
+                                            <li class="nav-item"><a href="ProductBazaar.aspx">Shop Bazaar</a></li>
+                                            <li class="nav-item"><a href="ProductList.aspx">Shop List</a></li>
                                             <li class="nav-item"><a href="ProductDetails.aspx">shop Single</a></li>
                                             <li class="nav-item"><a href="Cart.aspx">Cart</a></li>
                                             <li class="nav-item"><a href="Checkout.aspx">Checkout</a></li>
@@ -401,7 +401,7 @@
                                     <ul>
                                         <li><a href="mailto:support@ByteBazaar.com">support@ByteBazaar.com</a>
                                         </li>
-                                        <li><a href="mailto:career@ByteBazaar.com">career@ByteBazaar.com</a></li>
+                                        <li><a href="mailto:@ByteBazaar.com">career@ByteBazaar.com</a></li>
                                     </ul>
                                 </div>
                                 <!-- End Single Info -->

@@ -282,8 +282,8 @@
                                             data-bs-target="#submenu-1-3" aria-controls="navbarSupportedContent"
                                             aria-expanded="false" aria-label="Toggle navigation">Shop</a>
                                         <ul class="sub-menu collapse" id="submenu-1-3">
-                                            <li class="nav-item"><a href="ProductBazaar.aspx">Shop Grid</a></li>
-                                            <li class="nav-item"><a href="product-list.html">Shop List</a></li>
+                                            <li class="nav-item"><a href="ProductBazaar.aspx">Shop Bazaar</a></li>
+                                            <li class="nav-item"><a href="ProductList.aspx">Shop List</a></li>
                                             <li class="nav-item"><a href="ProductDetails.aspx">shop Single</a></li>
                                             <li class="nav-item"><a href="Cart.aspx">Cart</a></li>
                                             <li class="nav-item"><a href="Checkout.aspx">Checkout</a></li>
@@ -374,7 +374,7 @@
                                             href="javascript:void(0)"><i class="lni lni-facebook-filled"></i> Facebook
                                             login</a></div>
                                     <div class="col-lg-4 col-md-4 col-12"><a class="btn twitter-btn"
-                                            href="javascript:void(0)"><i class="lni lni-twitter-original"></i> Twitter
+                                            href="javascript:void(0)"><i class="icon icon--twitter"></i> X
                                             login</a></div>
                                     <div class="col-lg-4 col-md-4 col-12"><a class="btn google-btn"
                                             href="javascript:void(0)"><i class="lni lni-google"></i> Google login</a>

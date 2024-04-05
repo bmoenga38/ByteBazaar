@@ -7,7 +7,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Register - ByteBazaar Bootstrap 5 eCommerce HTML Template.</title>
+    <title>Register - ByteBazaar eCommerce.</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
@@ -76,7 +76,7 @@
                         <div class="top-middle">
                             <ul class="useful-links">
                                 <li><a href="Home.aspx">Home</a></li>
-                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="AboutUs.aspx">About Us</a></li>
                                 <li><a href="Contact.aspx">Contact Us</a></li>
                             </ul>
                         </div>
@@ -270,12 +270,12 @@
                                             aria-controls="navbarSupportedContent" aria-expanded="false"
                                             aria-label="Toggle navigation">Pages</a>
                                         <ul class="sub-menu collapse" id="submenu-1-2">
-                                            <li class="nav-item"><a href="about-us.html">About Us</a></li>
+                                            <li class="nav-item"><a href="AboutUs.aspx">About Us</a></li>
                                             <li class="nav-item"><a href="Faq.aspx">Faq</a></li>
                                             <li class="nav-item"><a href="Login.aspx">Login</a></li>
                                             <li class="nav-item active"><a href="Register.aspx">Register</a></li>
                                             <li class="nav-item"><a href="MailSuccess.aspx">Mail Success</a></li>
-                                            <li class="nav-item"><a href="404.html">404 Error</a></li>
+                                            <li class="nav-item"><a href="404.aspx">404 Error</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">
@@ -283,8 +283,8 @@
                                             data-bs-target="#submenu-1-3" aria-controls="navbarSupportedContent"
                                             aria-expanded="false" aria-label="Toggle navigation">Shop</a>
                                         <ul class="sub-menu collapse" id="submenu-1-3">
-                                            <li class="nav-item"><a href="ProductBazaar.aspx">Shop Grid</a></li>
-                                            <li class="nav-item"><a href="product-list.html">Shop List</a></li>
+                                            <li class="nav-item"><a href="ProductBazaar.aspx">Shop Bazaar</a></li>
+                                            <li class="nav-item"><a href="ProductList.aspx">Shop List</a></li>
                                             <li class="nav-item"><a href="ProductDetails.aspx">shop Single</a></li>
                                             <li class="nav-item"><a href="Cart.aspx">Cart</a></li>
                                             <li class="nav-item"><a href="Checkout.aspx">Checkout</a></li>
@@ -320,7 +320,7 @@
                                 <a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a>
+                                <a href="javascript:void(0)"><i class="lni lni-x-original"></i></a>
                             </li>
                             <li>
                                 <a href="javascript:void(0)"><i class="lni lni-instagram"></i></a>

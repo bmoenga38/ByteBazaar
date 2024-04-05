@@ -3,12 +3,10 @@
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
 
-
-<!-- Mirrored from demo.Brycode.com/themes/shopgrids/product-list.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Feb 2024 12:42:02 GMT -->
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Shop List - ShopGrids Bootstrap 5 eCommerce HTML Template.</title>
+    <title>Shop List - ByteBazaar - eCommerce.</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
@@ -178,12 +176,12 @@
                                                 <a href="javascript:void(0)" class="remove" title="Remove this item"><i
                                                         class="lni lni-close"></i></a>
                                                 <div class="cart-img-head">
-                                                    <a class="cart-img" href="product-details.html"><img
+                                                    <a class="cart-img" href="ProductDetails.aspx"><img
                                                             src="assets/images/header/cart-items/item1.jpg" alt="#"></a>
                                                 </div>
 
                                                 <div class="content">
-                                                    <h4><a href="product-details.html">
+                                                    <h4><a href="ProductDetails.aspx">
                                                             Apple Watch Series 6</a></h4>
                                                     <p class="quantity">1x - <span class="amount">$99.00</span></p>
                                                 </div>
@@ -192,11 +190,11 @@
                                                 <a href="javascript:void(0)" class="remove" title="Remove this item"><i
                                                         class="lni lni-close"></i></a>
                                                 <div class="cart-img-head">
-                                                    <a class="cart-img" href="product-details.html"><img
+                                                    <a class="cart-img" href="ProductDetails.aspx"><img
                                                             src="assets/images/header/cart-items/item2.jpg" alt="#"></a>
                                                 </div>
                                                 <div class="content">
-                                                    <h4><a href="product-details.html">Wi-Fi Smart Camera</a></h4>
+                                                    <h4><a href="ProductDetails.aspx">Wi-Fi Smart Camera</a></h4>
                                                     <p class="quantity">1x - <span class="amount">$35.00</span></p>
                                                 </div>
                                             </li>
@@ -290,9 +288,9 @@
                                             aria-controls="navbarSupportedContent" aria-expanded="false"
                                             aria-label="Toggle navigation">Shop</a>
                                         <ul class="sub-menu collapse" id="submenu-1-3">
-                                            <li class="nav-item"><a href="product-grids.html">Shop Grid</a></li>
-                                            <li class="nav-item active"><a href="product-list.html">Shop List</a></li>
-                                            <li class="nav-item"><a href="product-details.html">shop Single</a></li>
+                                            <li class="nav-item"><a href="product-grids.html">Shop Bazaar</a></li>
+                                            <li class="nav-item active"><a href="ProductList.aspx">Shop List</a></li>
+                                            <li class="nav-item"><a href="ProductDetails.aspx">shop Single</a></li>
                                             <li class="nav-item"><a href="cart.html">Cart</a></li>
                                             <li class="nav-item"><a href="checkout.html">Checkout</a></li>
                                         </ul>
@@ -549,7 +547,7 @@
                                             <div class="product-image">
                                                 <img src="assets/images/products/product-1.jpg" alt="#">
                                                 <div class="button">
-                                                    <a href="product-details.html" class="btn"><i
+                                                    <a href="ProductDetails.aspx" class="btn"><i
                                                             class="lni lni-cart"></i> Add to Cart</a>
                                                 </div>
                                             </div>
@@ -580,7 +578,7 @@
                                                 <img src="assets/images/products/product-2.jpg" alt="#">
                                                 <span class="sale-tag">-25%</span>
                                                 <div class="button">
-                                                    <a href="product-details.html" class="btn"><i
+                                                    <a href="ProductDetails.aspx" class="btn"><i
                                                             class="lni lni-cart"></i> Add to Cart</a>
                                                 </div>
                                             </div>
@@ -611,7 +609,7 @@
                                             <div class="product-image">
                                                 <img src="assets/images/products/product-3.jpg" alt="#">
                                                 <div class="button">
-                                                    <a href="product-details.html" class="btn"><i
+                                                    <a href="ProductDetails.aspx" class="btn"><i
                                                             class="lni lni-cart"></i> Add to Cart</a>
                                                 </div>
                                             </div>
@@ -642,7 +640,7 @@
                                                 <img src="assets/images/products/product-4.jpg" alt="#">
                                                 <span class="new-tag">New</span>
                                                 <div class="button">
-                                                    <a href="product-details.html" class="btn"><i
+                                                    <a href="ProductDetails.aspx" class="btn"><i
                                                             class="lni lni-cart"></i> Add to Cart</a>
                                                 </div>
                                             </div>
@@ -672,7 +670,7 @@
                                             <div class="product-image">
                                                 <img src="assets/images/products/product-5.jpg" alt="#">
                                                 <div class="button">
-                                                    <a href="product-details.html" class="btn"><i
+                                                    <a href="ProductDetails.aspx" class="btn"><i
                                                             class="lni lni-cart"></i> Add to Cart</a>
                                                 </div>
                                             </div>
@@ -702,7 +700,7 @@
                                             <div class="product-image">
                                                 <img src="assets/images/products/product-6.jpg" alt="#">
                                                 <div class="button">
-                                                    <a href="product-details.html" class="btn"><i
+                                                    <a href="ProductDetails.aspx" class="btn"><i
                                                             class="lni lni-cart"></i> Add to Cart</a>
                                                 </div>
                                             </div>
@@ -733,7 +731,7 @@
                                                 <img src="assets/images/products/product-7.jpg" alt="#">
                                                 <span class="sale-tag">-50%</span>
                                                 <div class="button">
-                                                    <a href="product-details.html" class="btn"><i
+                                                    <a href="ProductDetails.aspx" class="btn"><i
                                                             class="lni lni-cart"></i> Add to Cart</a>
                                                 </div>
                                             </div>
@@ -764,7 +762,7 @@
                                             <div class="product-image">
                                                 <img src="assets/images/products/product-8.jpg" alt="#">
                                                 <div class="button">
-                                                    <a href="product-details.html" class="btn"><i
+                                                    <a href="ProductDetails.aspx" class="btn"><i
                                                             class="lni lni-cart"></i> Add to Cart</a>
                                                 </div>
                                             </div>
@@ -795,7 +793,7 @@
                                                 <img src="assets/images/products/product-2.jpg" alt="#">
                                                 <span class="sale-tag">-25%</span>
                                                 <div class="button">
-                                                    <a href="product-details.html" class="btn"><i
+                                                    <a href="ProductDetails.aspx" class="btn"><i
                                                             class="lni lni-cart"></i> Add to Cart</a>
                                                 </div>
                                             </div>
@@ -849,7 +847,7 @@
                                                     <div class="product-image">
                                                         <img src="assets/images/products/product-1.jpg" alt="#">
                                                         <div class="button">
-                                                            <a href="product-details.html" class="btn"><i
+                                                            <a href="ProductDetails.aspx" class="btn"><i
                                                                     class="lni lni-cart"></i> Add to
                                                                 Cart</a>
                                                         </div>
@@ -887,7 +885,7 @@
                                                         <img src="assets/images/products/product-2.jpg" alt="#">
                                                         <span class="sale-tag">-25%</span>
                                                         <div class="button">
-                                                            <a href="product-details.html" class="btn"><i
+                                                            <a href="ProductDetails.aspx" class="btn"><i
                                                                     class="lni lni-cart"></i> Add to
                                                                 Cart</a>
                                                         </div>
@@ -925,7 +923,7 @@
                                                     <div class="product-image">
                                                         <img src="assets/images/products/product-3.jpg" alt="#">
                                                         <div class="button">
-                                                            <a href="product-details.html" class="btn"><i
+                                                            <a href="ProductDetails.aspx" class="btn"><i
                                                                     class="lni lni-cart"></i> Add to
                                                                 Cart</a>
                                                         </div>
@@ -963,7 +961,7 @@
                                                         <img src="assets/images/products/product-4.jpg" alt="#">
                                                         <span class="new-tag">New</span>
                                                         <div class="button">
-                                                            <a href="product-details.html" class="btn"><i
+                                                            <a href="ProductDetails.aspx" class="btn"><i
                                                                     class="lni lni-cart"></i> Add to
                                                                 Cart</a>
                                                         </div>
@@ -1001,7 +999,7 @@
                                                         <img src="assets/images/products/product-7.jpg" alt="#">
                                                         <span class="sale-tag">-50%</span>
                                                         <div class="button">
-                                                            <a href="product-details.html" class="btn"><i
+                                                            <a href="ProductDetails.aspx" class="btn"><i
                                                                     class="lni lni-cart"></i> Add to
                                                                 Cart</a>
                                                         </div>
@@ -1217,5 +1215,5 @@
 </body>
 
 
-<!-- Mirrored from demo.Brycode.com/themes/shopgrids/product-list.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Feb 2024 12:42:02 GMT -->
+<!-- Mirrored from demo.Brycode.com/themes/shopgrids/ProductList.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Feb 2024 12:42:02 GMT -->
 </html>

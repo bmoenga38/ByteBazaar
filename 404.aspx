@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <title>404 Error - ShopGrids Bootstrap 5 eCommerce HTML Template.</title>
+  <title>404 Error - ByteBazaar eCommerce </title>
   <meta name="description" content="" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
@@ -32,24 +32,7 @@
   <!-- /End Preloader -->
 
   <!-- Start Error Area -->
-  <!-- <div class="error-area">
-    <div class="d-table">
-      <div class="d-table-cell">
-        <div class="container">
-          <div class="error-content">
-            <h1>404</h1>
-            <h2>Oops! Page Not Found!</h2>
-            <p>The page you are looking for does not exist. It might have been moved or deleted.</p>
-            <div class="button">
-              <a href="Home.aspx" class="btn">Back to Home</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-    <section class="page_404">
+     <section class="page_404">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 ">

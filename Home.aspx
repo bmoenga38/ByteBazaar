@@ -21,7 +21,7 @@
 
 </head>
 
-<body>
+<body ng-app="Bytebazaar">
  
     <!-- Preloader -->
     <div runat="server" class="preloader">
@@ -35,6 +35,7 @@
     <!-- /End Preloader -->
 
     <!-- Start Header Area -->
+   <div ng-controller="ProductsCtrl" ng-cloak>
     <header class="header navbar-area">
         <!-- Start Topbar -->
         <div class="topbar">
@@ -56,6 +57,8 @@
                                     </div>
                                 </li>
                                 <li>
+
+                                    <%--multilingua--%>
                                     <div class="select-position">
                                         <select id="select5">
                                             <option value="0" selected>English</option>
@@ -106,10 +109,11 @@
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-3 col-7">
                         <!-- Start Header Logo -->
-                        <%--<a class="navbar-brand" href="Home.aspx">--%>
-                            <img src="assets/images/logo/logo.svg" alt="Logo">
-                        </a>
-                        <!-- End Header Logo -->
+                        <a class="navbar-brand" href="Home.aspx">
+                           <img src="assets/images/logo/logo.svg" alt="Logo">
+                            <%--<img src="assets/images/logo/remo.png">--%>
+                            </a>
+                      <!-- End Header Logo -->
                     </div>
                     <div class="col-lg-5 col-md-7 d-xs-none">
                         <!-- Start Main Menu Search -->
@@ -281,8 +285,8 @@
                                             data-bs-target="#submenu-1-3" aria-controls="navbarSupportedContent"
                                             aria-expanded="false" aria-label="Toggle navigation">Shop</a>
                                         <ul class="sub-menu collapse" id="submenu-1-3">
-                                            <li class="nav-item"><a href="ProductBazaar.aspx">Shop Grid</a></li>
-                                            <li class="nav-item"><a href="product-list.html">Shop List</a></li>
+                                            <li class="nav-item"><a href="ProductBazaar.aspx">Shop Bazaar</a></li>
+                                            <li class="nav-item"><a href="ProductList.aspx">Shop List</a></li>
                                             <li class="nav-item"><a href="ProductDetails.aspx">shop Single</a></li>
                                             <li class="nav-item"><a href="Cart.aspx">Cart</a></li>
                                             <li class="nav-item"><a href="Checkout.aspx">Checkout</a></li>
@@ -536,7 +540,7 @@
     <!-- End Features Area -->
 
     <!-- Start Trending Product Area -->
-    <section class="trending-product section">
+    <section class="trending-product section" >
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -554,7 +558,7 @@
                         <div class="product-image">
                             <img src="assets/images/products/product-1.jpg" alt="#">
                             <div class="button">
-                                <a href="ProductDetails.aspx" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="ProductBazaar.aspx" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
@@ -584,7 +588,7 @@
                             <img src="assets/images/products/product-2.jpg" alt="#">
                             <span class="sale-tag">-25%</span>
                             <div class="button">
-                                <a href="ProductDetails.aspx" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="ProductBazaar.aspx" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
@@ -614,7 +618,7 @@
                         <div class="product-image">
                             <img src="assets/images/products/product-3.jpg" alt="#">
                             <div class="button">
-                                <a href="ProductDetails.aspx" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="ProductBazaar.aspx" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
@@ -644,7 +648,7 @@
                             <img src="assets/images/products/product-4.jpg" alt="#">
                             <span class="new-tag">New</span>
                             <div class="button">
-                                <a href="ProductDetails.aspx" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="ProductBazaar.aspx" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
@@ -673,7 +677,7 @@
                         <div class="product-image">
                             <img src="assets/images/products/product-5.jpg" alt="#">
                             <div class="button">
-                                <a href="ProductDetails.aspx" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="ProductBazaar.aspx" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
@@ -702,7 +706,7 @@
                         <div class="product-image">
                             <img src="assets/images/products/product-6.jpg" alt="#">
                             <div class="button">
-                                <a href="ProductDetails.aspx" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="ProductBazaar.aspx" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
@@ -732,7 +736,7 @@
                             <img src="assets/images/products/product-7.jpg" alt="#">
                             <span class="sale-tag">-50%</span>
                             <div class="button">
-                                <a href="ProductDetails.aspx" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="ProductBazaar.aspx" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
@@ -762,7 +766,7 @@
                         <div class="product-image">
                             <img src="assets/images/products/product-8.jpg" alt="#">
                             <div class="button">
-                                <a href="ProductDetails.aspx" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                                <a href="ProductBazaar.aspx" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
                             </div>
                         </div>
                         <div class="product-info">
@@ -821,7 +825,9 @@
             </div>
         </div>
     </section>
-    <!-- End Banner Area -->
+   <!-- End Banner Area -->
+   </div>
+   <!-- End ProductsCtrl div -->
 
     <!-- Start Special Offer -->
     <section class="special-offer section">
@@ -844,7 +850,7 @@
                                 <div class="product-image">
                                     <img src="assets/images/products/product-3.jpg" alt="#">
                                     <div class="button">
-                                        <a href="ProductDetails.aspx" class="btn"><i class="lni lni-cart"></i> Add to
+                                        <a href="ProductBazaar.aspx" class="btn"><i class="lni lni-cart"></i> Add to
                                             Cart</a>
                                     </div>
                                 </div>
@@ -874,7 +880,7 @@
                                 <div class="product-image">
                                     <img src="assets/images/products/product-8.jpg" alt="#">
                                     <div class="button">
-                                        <a href="ProductDetails.aspx" class="btn"><i class="lni lni-cart"></i> Add to
+                                        <a href="ProductBazaar.aspx" class="btn"><i class="lni lni-cart"></i> Add to
                                             Cart</a>
                                     </div>
                                 </div>
@@ -904,7 +910,7 @@
                                 <div class="product-image">
                                     <img src="assets/images/products/product-6.jpg" alt="#">
                                     <div class="button">
-                                        <a href="ProductDetails.aspx" class="btn"><i class="lni lni-cart"></i> Add to
+                                        <a href="ProductBazaar.aspx" class="btn"><i class="lni lni-cart"></i> Add to
                                             Cart</a>
                                     </div>
                                 </div>
@@ -988,7 +994,7 @@
                             </div>
                         </div> -->
                         <div style="background: rgb(204, 24, 24);" class="alert">
-                            <h1 style="padding: 50px 80px;color: white;">We are sorry, Event ended ! </h1>
+                            <h1 style="padding: 5px 5px;color: white;">We'll Have Offers Soon! </h1>
                         </div>
                     </div>
                 </div>
@@ -1316,7 +1322,7 @@
                         <div class="col-lg-3 col-md-4 col-12">
                             <div class="footer-logo">
                                 <a href="Home.aspx">
-                                    <img src="assets/images/logo/white-logo.svg" alt="#">
+                                    <img src="assets/images/logo/white-logo.svg" alt="Bazaar">
                                 </a>
                             </div>
                         </div>
